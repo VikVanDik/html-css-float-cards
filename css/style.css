@@ -5,6 +5,8 @@
   font-family: 'Fredoka', sans-serif;
 }
 
+/* header */
+
 header {
   text-align: center;
   color: #E53170;
@@ -15,8 +17,24 @@ header h1{
   padding: 50px;
 }
 
+/* main */
+
 .caption {
   text-align: center;
 }
 
-body{}
+.container{
+  max-width: 1200;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.box-container .box{
+  display: inline-block;
+  height: 80px;
+  width: 250px;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
