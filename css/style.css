@@ -5,6 +5,16 @@
   font-family: 'Fredoka', sans-serif;
 }
 
+.float-left {
+  float: left;
+}
+
+clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
 /* header */
 
 header {
@@ -23,8 +33,12 @@ header h1{
   text-align: center;
 }
 
+main .caption-container{
+  margin-bottom: 50px;
+}
+
 .container{
-  max-width: 1200;
+  max-width: 1200px;
   margin: 0 auto;
   width: 70%;
   text-align: center;
@@ -37,4 +51,25 @@ header h1{
   background-color: black;
   color: white;
   margin: 10px;
+  text-align: left;
+}
+
+
+
+.propic {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.name {
+  margin: 0px 10px;
+}
+
+.email{
+  color: aqua;
+  font-size: .6rem;
+}
+
+.work {
+  font-size: .7rem;
 }
