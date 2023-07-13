@@ -38,36 +38,38 @@ main .caption-container{
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  width: 70%;
+  width: 80%;
   text-align: center;
 }
 
 .box-container .box{
   display: inline-block;
-  height: 80px;
-  width: 250px;
+  height: 100px;
+  width: 320px;
   background-color: black;
   color: white;
   margin: 10px;
   text-align: left;
+  box-shadow: 10px 10px 5px #dadada;
 }
 
-
-
 .propic {
-  width: 80px;
+  width: 100px;
   margin-right: 10px;
 }
 
 .name {
-  margin: 0px 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 15px;
 }
 
 .email{
-  color: aqua;
+  color: #6ECBF2;
   font-size: .6rem;
+  margin-top: 15px;
 }
 
 .work {
