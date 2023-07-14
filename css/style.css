@@ -45,7 +45,6 @@ main .caption-container{
 }
 
 .box-container .box{
-  display: inline-block;
   height: 100px;
   width: calc(100% / 3 - 20px);
   background-color: black;
