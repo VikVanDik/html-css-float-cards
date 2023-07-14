@@ -35,6 +35,8 @@ header h1{
 
 main .caption-container{
   margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .container{
@@ -43,6 +45,7 @@ main .caption-container{
   width: 80%;
   text-align: center;
 }
+
 
 .box-container .box{
   height: 100px;
